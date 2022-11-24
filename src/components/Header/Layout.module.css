@@ -1,0 +1,43 @@
+.container{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: overlay;
+  flex-direction: column;
+  background-color: whitesmoke;
+  
+}
+
+.layout{
+  display: flex;
+  margin-top: 90px;
+  flex: 1;
+  background-color: whitesmoke;
+  
+}
+
+.contents{
+  margin-top: 40px;
+  margin-left: 200px;
+  flex: 1;
+  background-color: whitesmoke;
+}
+
+.text1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 230px;
+  padding-bottom: 220px;
+  margin-right: 80px;
+  font-family: 'Dokdo';
+  font-size: 40px;
+}
+
+@font-face {
+    font-family: "Dokdo";
+    src: url("../fonts/Dokdo.ttf");
+}
